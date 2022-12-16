@@ -1,6 +1,9 @@
 import mongoose from 'mongoose'
 
 const reviewSchema = new mongoose.Schema({
+    idReview:{
+        type: mongoose.Schema.Types.ObjectId,
+    },
     message:{
         type: String
     },
